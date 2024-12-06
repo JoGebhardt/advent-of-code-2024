@@ -4,7 +4,7 @@ public static class Day1
 {
     public static int Exercise1(string filePath)
     {
-        var data = ReadDataExercise(filePath);
+        var data = ReadData(filePath);
         
         var firstList = data.Select(x => x.Item1).OrderBy(_ => _);
         var secondList = data.Select(x => x.Item2).OrderBy(_ => _);
@@ -14,7 +14,7 @@ public static class Day1
     
     public static int Exercise2(string filePath)
     {
-        var data = ReadDataExercise(filePath);
+        var data = ReadData(filePath);
 
         var firstList = data.Select(x => x.Item1);
         var occurrencesInSecondList = data.Select(x => x.Item2).GroupBy(x => x).ToDictionary(x => x.Key, x => x.Count());
@@ -22,7 +22,7 @@ public static class Day1
         return firstList.Where(occurrencesInSecondList.ContainsKey).Sum(x => x * occurrencesInSecondList[x]);
     }
     
-    private static List<(int, int)> ReadDataExercise(string filePath)
+    private static List<(int, int)> ReadData(string filePath)
     {
         List<(int, int)> data = [];
 
