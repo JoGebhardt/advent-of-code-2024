@@ -5,8 +5,9 @@ using AdventOfCode2024.Day4;
 using AdventOfCode2024.Day5;
 using AdventOfCode2024.Day6;
 using AdventOfCode2024.Day7;
+using AdventOfCode2024.Day8;
 
-var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Day7", "data.txt");
+var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Day8", "data.txt");
 
-var result = Day7.Exercise2(filePath);
-Console.WriteLine(result);
+Console.WriteLine(Day8.Exercise1(filePath));
+Console.WriteLine(Day8.Exercise2(filePath));
