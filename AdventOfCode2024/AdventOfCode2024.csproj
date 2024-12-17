@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="morelinq" Version="4.3.0" />
+    <PackageReference Include="WinstonPuckett.PipeExtensions" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
