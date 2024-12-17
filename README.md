@@ -11,3 +11,4 @@ Time to solve exercises in minutes when applicable.
 | 10  | -/-        | -/-        | 25    |
 | 11  | 11         | -/-        | -/-   |
 | 12  | -/-        | -/-        | -/-   |
+| 13  | 25         | 65         | 90    |
