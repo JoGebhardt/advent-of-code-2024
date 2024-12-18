@@ -11,12 +11,13 @@ using AdventOfCode2024.Day10;
 using AdventOfCode2024.Day11;
 using AdventOfCode2024.Day12;
 using AdventOfCode2024.Day13;
+using AdventOfCode2024.Day14;
 
 
-var day = "Day13";
+var day = "Day14";
 var file = "data.txt";
 
 var filePath = Path.Combine(Directory.GetCurrentDirectory(), day, file);
 
-Console.WriteLine($"Solution for exercise 1: {Day13.Exercise1(filePath)}");
-Console.WriteLine($"Solution for exercise 2: {Day13.Exercise2(filePath)}");
+Console.WriteLine($"Solution for exercise 1: {Day14.Exercise1(filePath)}");
+Console.WriteLine($"Solution for exercise 2: {Day14.Exercise2(filePath)}");
